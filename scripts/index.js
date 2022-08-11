@@ -37,3 +37,9 @@ function download() {
 
     document.body.removeChild(element);
 }
+
+var current_mode = screen.orientation;
+
+console.log(current_mode.type);
+
+screen.orientation.lock('landscape-primary');
