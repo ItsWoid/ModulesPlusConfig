@@ -8,8 +8,26 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <noscript>
+        <div class="noscript">
+            <p>You need to enable JavaScript to run this app.</p>
+        </div>
+    </noscript>
     <div class="container">
-        <div class="settings" onclick="open_settings()">
+        <div class="menu">
+            <div class="modules">
+                <div class="module">
+                    <label class="module-info" for="">Test</label>
+                </div>
+            </div>
+            <div class="menu-bottom">
+                <button class="minecraft-button">General</button>
+                <button class="minecraft-button">Expand</button>
+                <button class="minecraft-button">Info</button>
+            </div>
+        </div>
+
+        <!-- <div class="settings" onclick="open_settings()">
             <button class="minecraft-button">
                 Settings
             </button>
@@ -18,7 +36,7 @@
             <button class="minecraft-button" id="export-btn" onclick="download()">
                 Export
             </button>
-        </div>
+        </div> -->
     </div>
     <script src="./scripts/index.js">
     </script>
